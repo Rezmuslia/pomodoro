@@ -34,7 +34,7 @@ document.querySelector('#start')
         notification.addEventListener('close', () => {
             const time = setInterval(() => {
                 alert('Вы уже работаете 25 мин, отдохните')
-            }, 20000);
+            }, 1500000);
         });
 
         notification.addEventListener('click', () => {
