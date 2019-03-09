@@ -22,7 +22,7 @@ document.querySelector('#request')
 document.querySelector('#start')
     .addEventListener('click', () => {
         const notification = new Notification('Start', {
-            body: 'Notification (вы начали работу)',
+            body: 'Notification (Вы начали работу)',
             icon: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png',
             image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/768px-Unofficial_JavaScript_logo_2.svg.png',
             badge: 'https://raw.githubusercontent.com/webpack/media/master/logo/logo-on-white-bg.png',
